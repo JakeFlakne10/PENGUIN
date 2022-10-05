@@ -1,12 +1,3 @@
-starter["what penguin? King, Emperor, Chinstrap, Gentoo, Little, African, Southern Rockhopper, Macaroni"]
-kingFacts["this, is, stupid"]
-emperorFacts["mid, as, hek"]
-chinstrapFacts[""]
-gentooFacts[""]
-littleFacts[""]
-africanFacts[""]
-southernRockhopperFacts[""]
-macaroniFacts[""]
-def start():
-    if i in range(0,0):
-        print("hi")
+penguin = input("1.king\n2.emperor\n3.chinstrap\n4.gentoo", "5.little", "6.african", "7.southern rockhopper", "8.macaroni")
+options["habitat","diet","appearance","conservation","status"]
+myList[int(penguin)]
