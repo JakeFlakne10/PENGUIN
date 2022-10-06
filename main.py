@@ -1,5 +1,5 @@
 #                0                1                                   2                                    3                                   4                                   5                              6                                         7                                          8
-penguin = ["invalid","King Penguin:\n\n", "Emperor Penguin\n\n", "Chinstrap Penguin\n\n", "Gentoo Penguin\n\n", "Little Penguin\n\n", "African Penguin\n\n", "Southern Rockhopper\n\n", "Macaroni Penguin\n\n"]
+penguin = ["invalid","King Penguin:\n", "Emperor Penguin:\n", "Chinstrap Penguin:\n", "Gentoo Pengui:n\n\n", "Little Penguin:\n\n", "African Penguin:\n", "Southern Rockhopper:\n", "Macaroni Penguin:\n"]
 #               0                                      1      2 3 4 5 6 7 8
 habitat = ["invalid","Habitat:\nSubantarctic islands.\n", "Habitat:\n", "Habitat:\n", "Habitat:\n", "Habitat:\n", "Habitat:\n", "Habitat:\n", "Habitat:\n"]
 #          0                                          1 2 3 4 5 6 7 8
@@ -12,15 +12,15 @@ conservation = ["invalid","", "", "", "", "", "", "", ""]
 status = ["invalid","", "", "", "", "", "", "", ""]
 
 # choose path/penguin
-p =  ("[INPUT NUM. 1-8]pick a penguin to learn about.\n1.king\n2.emperor\n3.chinstrap\n4.gentoo\n5.little\n6.african\n7.southern rockhopper\n 8.macaroni ")
+p =  input("[INPUT NUM. 1-8]pick a penguin to learn about.\n1.king\n2.emperor\n3.chinstrap\n4.gentoo\n5.little\n6.african\n7.southern rockhopper\n8.macaroni\n")
 
 #print info based off path
 print(p)
-print(int(penguin[p]))
-print(int(habitat[p]))
-print(int(diet[p]))
-print(int(appearance[p]))
-print(int(status[p]))
+print(penguin[int(p)])
+print(habitat[int(p)])
+print(diet[int(p)])
+print(appearance[int(p)])
+print(status[int(p)])
 
 # if statements: {0}
 # elif statements: {0}
